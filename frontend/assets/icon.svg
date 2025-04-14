@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1024px" height="1024px" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>VidSummify Icon</title>
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="100%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#6200EE" offset="0%"></stop>
+            <stop stop-color="#9D4EDD" offset="100%"></stop>
+        </linearGradient>
+        <circle id="path-2" cx="512" cy="512" r="512"></circle>
+        <filter x="-5.9%" y="-5.9%" width="111.7%" height="111.7%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="20" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Background">
+            <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+            <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+        </g>
+        <g id="Play-Button" transform="translate(256.000000, 256.000000)" fill="#FFFFFF">
+            <path d="M256,0 C397.385,0 512,114.615 512,256 C512,397.385 397.385,512 256,512 C114.615,512 0,397.385 0,256 C0,114.615 114.615,0 256,0 Z M256,64 C150.144,64 64,150.144 64,256 C64,361.856 150.144,448 256,448 C361.856,448 448,361.856 448,256 C448,150.144 361.856,64 256,64 Z" id="Circle" fill-rule="nonzero"></path>
+            <polygon id="Triangle" points="224 192 320 256 224 320"></polygon>
+        </g>
+        <g id="Text-Lines" transform="translate(320.000000, 320.000000)" fill="#FFFFFF" fill-opacity="0.8">
+            <rect id="Line-1" x="0" y="0" width="384" height="24" rx="12"></rect>
+            <rect id="Line-2" x="0" y="48" width="384" height="24" rx="12"></rect>
+            <rect id="Line-3" x="0" y="96" width="256" height="24" rx="12"></rect>
+            <rect id="Line-4" x="0" y="144" width="320" height="24" rx="12"></rect>
+            <rect id="Line-5" x="0" y="192" width="192" height="24" rx="12"></rect>
+        </g>
+    </g>
+</svg>
